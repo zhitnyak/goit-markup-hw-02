@@ -66,6 +66,9 @@ a {
 .nav-linkv:focus {
     color:  var(--accent-text);
 }
+.nav-link.current{
+    color:  var(--accent-text);
+}
 .contact-link {
     color: inherit;
     font-weight: 500;
@@ -172,7 +175,7 @@ footer {
     line-height: 1.6;
     letter-spacing: 0.03em;
     border: none;
-    /* background-color: var(--second-bg-color); */
+    background-color: var(--second-bg-color);
     cursor: pointer;
 }
 .filter-portfolio:hover,
